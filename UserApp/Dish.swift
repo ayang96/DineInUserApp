@@ -8,11 +8,18 @@
 
 import Foundation
 
-class Dishes {
+class Dish {
     //Make sure to change stuff to "let" eventually
     var dishDescription:String?
     var dishName:String?
     var rating:Int?
     var rid:String?
-    init(description: String,name:String,rating:Int,rid:String )
+    var price: Int?
+    init(description: String,name:String,rating:Int,rid:String, price: Int ){
+        self.dishDescription = description
+        self.dishName = name
+        self.rating = rating
+        self.rid = rid
+        self.price = price
+    }
 }

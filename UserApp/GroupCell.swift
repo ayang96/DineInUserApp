@@ -6,4 +6,15 @@
 //  Copyright © 2017 Alex Yang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class GroupCell: UICollectionViewCell {
+    @IBOutlet weak var groupName: UILabel!
+    @objc var groupID:String?
+    @IBOutlet weak var XButton: UIButton!
+    @objc var xbuttontapped: ((GroupCell) -> Void)?
+    
+    @IBAction func XButtonTapped(_ sender: Any) {
+        xbuttontapped?(self)
+    }
+}

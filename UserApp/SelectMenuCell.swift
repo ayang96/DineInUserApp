@@ -6,4 +6,11 @@
 //  Copyright © 2017 Alex Yang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SelectMenuCell: UITableViewCell {
+    
+    @IBOutlet weak var DishName: UILabel!
+    //can delete maybe
+    var dishinfo:Dish?
+}

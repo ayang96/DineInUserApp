@@ -1,0 +1,212 @@
+2017-10-01 23:51:47.275349-0700 RestaurantApp[13750:1153494] [Firebase/Analytics][I-ACS005000] The AdSupport Framework is not currently linked. Some features will not function properly. Learn more at http://goo.gl/9vSsPb
+2017-10-01 23:51:47.275 RestaurantApp[13750] <Warning> [Firebase/Analytics][I-ACS005000] The AdSupport Framework is not currently linked. Some features will not function properly. Learn more at http://goo.gl/9vSsPb
+=================================================================
+Main Thread Checker: UI API called on a background thread: -[UIApplication delegate]
+PID: 13750, TID: 1153491, Thread name: (none), Queue name: FIRAnalyticsQueue, QoS: 9
+Backtrace:
+4   RestaurantApp                       0x000000010cfc4673 __38+[FIRAnalytics createAppDelegateProxy]_block_invoke + 55
+5   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+6   libdispatch.dylib                   0x0000000113789d3c dispatch_once_f + 285
+7   RestaurantApp                       0x000000010cfc2b22 __47+[FIRAnalytics startWithConfiguration:options:]_block_invoke_2 + 101
+8   libdispatch.dylib                   0x0000000113787711 _dispatch_call_block_and_release + 12
+9   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+10  libdispatch.dylib                   0x00000001137910ad _dispatch_queue_serial_drain + 1173
+11  libdispatch.dylib                   0x0000000113791ae3 _dispatch_queue_invoke + 342
+12  libdispatch.dylib                   0x0000000113794d79 _dispatch_root_queue_drain + 785
+13  libdispatch.dylib                   0x0000000113794a05 _dispatch_worker_thread4 + 54
+14  libsystem_pthread.dylib             0x0000000113bff5a2 _pthread_wqthread + 1299
+15  libsystem_pthread.dylib             0x0000000113bff07d start_wqthread + 13
+2017-10-01 23:51:47.295428-0700 RestaurantApp[13750:1153491] [reports] Main Thread Checker: UI API called on a background thread: -[UIApplication delegate]
+PID: 13750, TID: 1153491, Thread name: (none), Queue name: FIRAnalyticsQueue, QoS: 9
+Backtrace:
+4   RestaurantApp                       0x000000010cfc4673 __38+[FIRAnalytics createAppDelegateProxy]_block_invoke + 55
+5   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+6   libdispatch.dylib                   0x0000000113789d3c dispatch_once_f + 285
+7   RestaurantApp                       0x000000010cfc2b22 __47+[FIRAnalytics startWithConfiguration:options:]_block_invoke_2 + 101
+8   libdispatch.dylib                   0x0000000113787711 _dispatch_call_block_and_release + 12
+9   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+10  libdispatch.dylib                   0x00000001137910ad _dispatch_queue_serial_drain + 1173
+11  libdispatch.dylib                   0x0000000113791ae3 _dispatch_queue_invoke + 342
+12  libdispatch.dylib                   0x0000000113794d79 _dispatch_root_queue_drain + 785
+13  libdispatch.dylib                   0x0000000113794a05 _dispatch_worker_thread4 + 54
+14  libsystem_pthread.dylib             0x0000000113bff5a2 _pthread_wqthread + 1299
+15  libsystem_pthread.dylib             0x0000000113bff07d start_wqthread + 13
+2017-10-01 23:51:47.295568-0700 RestaurantApp[13750:1153498] [Firebase/Analytics][I-ACS023007] Firebase Analytics v.4000000 started
+2017-10-01 23:51:47.295 RestaurantApp[13750] <Notice> [Firebase/Analytics][I-ACS023007] Firebase Analytics v.4000000 started
+2017-10-01 23:51:47.295827-0700 RestaurantApp[13750:1153498] [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
+2017-10-01 23:51:49.520 RestaurantApp[13750] <Notice> [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
+2017-10-01 23:51:49.521321-0700 RestaurantApp[13750:1153498] [Firebase/Analytics][I-ACS003007] Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist
+2017-10-01 23:51:49.521 RestaurantApp[13750] <Notice> [Firebase/Analytics][I-ACS003007] Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist
+2017-10-01 23:51:49.537887-0700 RestaurantApp[13750:1153499] [Firebase/Messaging][I-FCM001000] FIRMessaging Remote Notifications proxy enabled, will swizzle remote notification receiver handlers. Add "FirebaseAppDelegateProxyEnabled" to your Info.plist and set it to NO
+2017-10-01 23:51:49.538 RestaurantApp[13750] <Notice> [Firebase/Messaging][I-FCM001000] FIRMessaging Remote Notifications proxy enabled, will swizzle remote notification receiver handlers. Add "FirebaseAppDelegateProxyEnabled" to your Info.plist and set it to NO
+2017-10-01 23:51:49.653404-0700 RestaurantApp[13750:1153499] [BoringSSL] Function boringssl_context_get_peer_sct_list: line 1559 received sct extension length is less than sct data length
+2017-10-01 23:51:49.674851-0700 RestaurantApp[13750:1153908] [BoringSSL] Function boringssl_context_get_peer_sct_list: line 1559 received sct extension length is less than sct data length
+2017-10-01 23:51:49.764216-0700 RestaurantApp[13750:1153917] TIC Read Status [2:0x0]: 1:57
+2017-10-01 23:51:49.764332-0700 RestaurantApp[13750:1153917] TIC Read Status [2:0x0]: 1:57
+2017-10-01 23:51:49.782823-0700 RestaurantApp[13750:1153916] TIC Read Status [1:0x0]: 1:57
+2017-10-01 23:51:49.783009-0700 RestaurantApp[13750:1153916] TIC Read Status [1:0x0]: 1:57
+=================================================================
+Main Thread Checker: UI API called on a background thread: -[UIApplication applicationState]
+PID: 13750, TID: 1153494, Thread name: (none), Queue name: com.google.fira.worker, QoS: 9
+Backtrace:
+4   RestaurantApp                       0x000000010cfc2532 FIRAIsAppActive + 55
+5   RestaurantApp                       0x000000010cfc1a30 -[FIRASessionReporter shouldStartNewSession] + 19
+6   RestaurantApp                       0x000000010cfc160a -[FIRASessionReporter initWithPersistedConfig:] + 282
+7   RestaurantApp                       0x000000010cfabe4d __48-[FIRAMeasurement startMeasurementOnWorkerQueue]_block_invoke + 1934
+8   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+9   libdispatch.dylib                   0x0000000113789d3c dispatch_once_f + 285
+10  RestaurantApp                       0x000000010cfab6bd -[FIRAMeasurement startMeasurementOnWorkerQueue] + 286
+11  RestaurantApp                       0x000000010cfab485 -[FIRAMeasurement setEnabledOnWorkerQueue:] + 117
+12  RestaurantApp                       0x000000010cfc12a6 __52-[FIRAScheduler scheduleOnWorkerQueueBlockID:block:]_block_invoke + 32
+13  libdispatch.dylib                   0x0000000113787711 _dispatch_call_block_and_release + 12
+14  libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+15  libdispatch.dylib                   0x00000001137910ad _dispatch_queue_serial_drain + 1173
+16  libdispatch.dylib                   0x0000000113791ae3 _dispatch_queue_invoke + 342
+17  libdispatch.dylib                   0x0000000113794d79 _dispatch_root_queue_drain + 785
+18  libdispatch.dylib                   0x0000000113794a05 _dispatch_worker_thread4 + 54
+19  libsystem_pthread.dylib             0x0000000113bff5a2 _pthread_wqthread + 1299
+20  libsystem_pthread.dylib             0x0000000113bff07d start_wqthread + 13
+2017-10-01 23:51:49.842377-0700 RestaurantApp[13750:1153494] [reports] Main Thread Checker: UI API called on a background thread: -[UIApplication applicationState]
+PID: 13750, TID: 1153494, Thread name: (none), Queue name: com.google.fira.worker, QoS: 9
+Backtrace:
+4   RestaurantApp                       0x000000010cfc2532 FIRAIsAppActive + 55
+5   RestaurantApp                       0x000000010cfc1a30 -[FIRASessionReporter shouldStartNewSession] + 19
+6   RestaurantApp                       0x000000010cfc160a -[FIRASessionReporter initWithPersistedConfig:] + 282
+7   RestaurantApp                       0x000000010cfabe4d __48-[FIRAMeasurement startMeasurementOnWorkerQueue]_block_invoke + 1934
+8   libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+9   libdispatch.dylib                   0x0000000113789d3c dispatch_once_f + 285
+10  RestaurantApp                       0x000000010cfab6bd -[FIRAMeasurement startMeasurementOnWorkerQueue] + 286
+11  RestaurantApp                       0x000000010cfab485 -[FIRAMeasurement setEnabledOnWorkerQueue:] + 117
+12  RestaurantApp                       0x000000010cfc12a6 __52-[FIRAScheduler scheduleOnWorkerQueueBlockID:block:]_block_invoke + 32
+13  libdispatch.dylib                   0x0000000113787711 _dispatch_call_block_and_release + 12
+14  libdispatch.dylib                   0x00000001137887a0 _dispatch_client_callout + 8
+15  libdispatch.dylib                   0x00000001137910ad _dispatch_queue_serial_drain + 1173
+16  libdispatch.dylib                   0x0000000113791ae3 _dispatch_queue_invoke + 342
+17  libdispatch.dylib                   0x0000000113794d79 _dispatch_root_queue_drain + 785
+18  libdispatch.dylib                   0x0000000113794a05 _dispatch_worker_thread4 + 54
+19  libsystem_pthread.dylib             0x0000000113bff5a2 _pthread_wqthread + 1299
+20  libsystem_pthread.dylib             0x0000000113bff07d start_wqthread + 13
+2017-10-01 23:51:49.888684-0700 RestaurantApp[13750:1153917] [Firebase/Analytics][I-ACS032003] iAd framework is not linked. Search Ad Attribution Reporter is disabled.
+2017-10-01 23:51:49.888 RestaurantApp[13750] <Warning> [Firebase/Analytics][I-ACS032003] iAd framework is not linked. Search Ad Attribution Reporter is disabled.
+2017-10-01 23:51:49.892108-0700 RestaurantApp[13750:1153916] [Firebase/Analytics][I-ACS023012] Firebase Analytics enabled
+2017-10-01 23:51:49.892 RestaurantApp[13750] <Notice> [Firebase/Analytics][I-ACS023012] Firebase Analytics enabled
+2017-10-01 23:51:50.024965-0700 RestaurantApp[13750:1153491] TIC Read Status [3:0x0]: 1:57
+2017-10-01 23:51:50.025258-0700 RestaurantApp[13750:1153491] TIC Read Status [3:0x0]: 1:57
+2017-10-01 23:51:50.264482-0700 RestaurantApp[13750:1153494] TIC Read Status [4:0x0]: 1:57
+2017-10-01 23:51:50.264605-0700 RestaurantApp[13750:1153494] TIC Read Status [4:0x0]: 1:57
+2017-10-01 23:51:51.186380-0700 RestaurantApp[13750:1153087] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /Users/alexyang/Library/Developer/CoreSimulator/Devices/19D28C63-F4CA-4048-922A-2FDF84D3961B/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-10-01 23:51:51.187112-0700 RestaurantApp[13750:1153087] [MC] Reading from private effective user settings.
+2017-10-01 23:51:51.415041-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-01 23:51:51.415169-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-02 01:23:42.601219-0700 RestaurantApp[13750:1201456] TIC Read Status [5:0x0]: 1:57
+2017-10-02 01:23:42.601456-0700 RestaurantApp[13750:1201456] TIC Read Status [5:0x0]: 1:57
+2017-10-02 01:23:43.110199-0700 RestaurantApp[13750:1210415] TIC Read Status [6:0x0]: 1:57
+2017-10-02 01:23:43.110678-0700 RestaurantApp[13750:1210415] TIC Read Status [6:0x0]: 1:57
+2017-10-02 04:05:51.718924-0700 RestaurantApp[13750:1210416] TIC Read Status [7:0x0]: 1:57
+2017-10-02 04:05:51.719024-0700 RestaurantApp[13750:1210416] TIC Read Status [7:0x0]: 1:57
+2017-10-02 04:05:52.155739-0700 RestaurantApp[13750:1214069] TIC Read Status [8:0x0]: 1:57
+2017-10-02 04:05:52.155856-0700 RestaurantApp[13750:1214069] TIC Read Status [8:0x0]: 1:57
+2017-10-02 05:53:57.582318-0700 RestaurantApp[13750:1210416] TIC Read Status [9:0x0]: 1:57
+2017-10-02 05:53:57.582484-0700 RestaurantApp[13750:1210416] TIC Read Status [9:0x0]: 1:57
+2017-10-02 05:53:58.005171-0700 RestaurantApp[13750:1221670] TIC Read Status [10:0x0]: 1:57
+2017-10-02 05:53:58.005258-0700 RestaurantApp[13750:1221670] TIC Read Status [10:0x0]: 1:57
+2017-10-02 07:42:03.961910-0700 RestaurantApp[13750:1217149] TIC Read Status [11:0x0]: 1:57
+2017-10-02 07:42:03.962032-0700 RestaurantApp[13750:1217149] TIC Read Status [11:0x0]: 1:57
+2017-10-02 07:42:04.122995-0700 RestaurantApp[13750:1226170] TIC Read Status [12:0x0]: 1:57
+2017-10-02 07:42:04.123139-0700 RestaurantApp[13750:1226170] TIC Read Status [12:0x0]: 1:57
+2017-10-02 09:03:28.316715-0700 RestaurantApp[13750:1230308] TIC Read Status [13:0x0]: 1:57
+2017-10-02 09:03:28.317147-0700 RestaurantApp[13750:1230308] TIC Read Status [13:0x0]: 1:57
+2017-10-02 09:03:28.968826-0700 RestaurantApp[13750:1217149] TIC Read Status [14:0x0]: 1:57
+2017-10-02 09:03:28.969376-0700 RestaurantApp[13750:1217149] TIC Read Status [14:0x0]: 1:57
+2017-10-02 10:09:15.396140-0700 RestaurantApp[13750:1360975] TIC Read Status [15:0x0]: 1:57
+2017-10-02 10:09:15.396222-0700 RestaurantApp[13750:1360975] TIC Read Status [15:0x0]: 1:57
+2017-10-02 10:09:15.950757-0700 RestaurantApp[13750:1372962] TIC Read Status [16:0x0]: 1:57
+2017-10-02 10:09:15.950890-0700 RestaurantApp[13750:1372962] TIC Read Status [16:0x0]: 1:57
+2017-10-02 11:22:12.271773-0700 RestaurantApp[13750:1702554] TIC Read Status [17:0x0]: 1:57
+2017-10-02 11:22:12.271955-0700 RestaurantApp[13750:1702554] TIC Read Status [17:0x0]: 1:57
+2017-10-02 11:22:12.402516-0700 RestaurantApp[13750:1703192] TIC Read Status [18:0x0]: 1:57
+2017-10-02 11:22:12.402645-0700 RestaurantApp[13750:1703192] TIC Read Status [18:0x0]: 1:57
+2017-10-02 12:22:12.574032-0700 RestaurantApp[13750:2057482] TIC Read Status [19:0x0]: 1:57
+2017-10-02 12:22:12.574412-0700 RestaurantApp[13750:2057482] TIC Read Status [19:0x0]: 1:57
+2017-10-02 12:22:12.766542-0700 RestaurantApp[13750:2057482] TIC Read Status [20:0x0]: 1:57
+2017-10-02 12:22:12.766791-0700 RestaurantApp[13750:2057482] TIC Read Status [20:0x0]: 1:57
+2017-10-02 13:24:26.547559-0700 RestaurantApp[13750:2339285] TIC TCP Conn Failed [21:0x6180003606c0]: 12:8 Err(-65554)
+2017-10-02 13:24:26.554259-0700 RestaurantApp[13750:2081462] HTTP load failed (error code: -1009 [12:8]) for Task <700BA903-B925-4F55-A3E2-ED4EE6FF37E5>.<1>
+2017-10-02 13:24:26.554787-0700 RestaurantApp[13750:2351977] Task <700BA903-B925-4F55-A3E2-ED4EE6FF37E5>.<1> finished with error - code: -1009
+2017-10-02 13:24:26.572100-0700 RestaurantApp[13750:2339285] [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x618000449510 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-02 13:24:26.572 RestaurantApp[13750] <Error> [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x618000449510 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-02 15:54:12.064354-0700 RestaurantApp[13750:2361243] TIC Read Status [22:0x0]: 1:57
+2017-10-02 15:54:12.064789-0700 RestaurantApp[13750:2361243] TIC Read Status [22:0x0]: 1:57
+2017-10-02 18:35:03.296096-0700 RestaurantApp[13750:2706645] TIC Read Status [23:0x0]: 1:57
+2017-10-02 18:35:03.296653-0700 RestaurantApp[13750:2706645] TIC Read Status [23:0x0]: 1:57
+2017-10-02 18:35:04.064920-0700 RestaurantApp[13750:2431376] TIC Read Status [24:0x0]: 1:57
+2017-10-02 18:35:04.065140-0700 RestaurantApp[13750:2431376] TIC Read Status [24:0x0]: 1:57
+2017-10-03 09:44:37.883747-0700 RestaurantApp[13750:5028280] TIC TCP Conn Failed [25:0x61800017fa40]: 12:8 Err(-65554)
+2017-10-03 09:44:37.892115-0700 RestaurantApp[13750:5019955] HTTP load failed (error code: -1009 [12:8]) for Task <8803C96C-6319-4660-BF6A-8FC0644EFF7F>.<1>
+2017-10-03 09:44:37.894861-0700 RestaurantApp[13750:5019955] Task <8803C96C-6319-4660-BF6A-8FC0644EFF7F>.<1> finished with error - code: -1009
+2017-10-03 09:44:37.904032-0700 RestaurantApp[13750:5028280] [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x618000449ed0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-03 09:44:37.913 RestaurantApp[13750] <Error> [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x618000449ed0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-03 11:03:28.806727-0700 RestaurantApp[13750:5149331] TIC Read Status [26:0x0]: 1:57
+2017-10-03 11:03:28.807103-0700 RestaurantApp[13750:5149331] TIC Read Status [26:0x0]: 1:57
+2017-10-03 11:03:29.324920-0700 RestaurantApp[13750:5153583] TIC Read Status [27:0x0]: 1:57
+2017-10-03 11:03:29.325335-0700 RestaurantApp[13750:5153583] TIC Read Status [27:0x0]: 1:57
+2017-10-03 12:39:14.054556-0700 RestaurantApp[13750:5167402] HTTP load failed (error code: -999 [1:89]) for Task <A5CF63B5-7FCA-4B11-8729-AAEB3C677910>.<1>
+2017-10-03 12:39:14.054629-0700 RestaurantApp[13750:5173633] Task <A5CF63B5-7FCA-4B11-8729-AAEB3C677910>.<1> finished with error - code: -999
+2017-10-03 12:39:14.061841-0700 RestaurantApp[13750:5169741] [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1001, Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2103, NSLocalizedDescription=The request timed out.}
+2017-10-03 12:39:14.062 RestaurantApp[13750] <Error> [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1001, Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2103, NSLocalizedDescription=The request timed out.}
+2017-10-03 13:04:21.519553-0700 RestaurantApp[13750:5181929] TIC Read Status [29:0x0]: 1:57
+2017-10-03 13:04:21.520074-0700 RestaurantApp[13750:5181929] TIC Read Status [29:0x0]: 1:57
+2017-10-03 13:04:21.730506-0700 RestaurantApp[13750:5200275] TIC Read Status [30:0x0]: 1:57
+2017-10-03 13:04:21.730896-0700 RestaurantApp[13750:5200275] TIC Read Status [30:0x0]: 1:57
+2017-10-03 14:04:47.654698-0700 RestaurantApp[13750:5498982] TIC TCP Conn Failed [31:0x61000017fb00]: 1:50 Err(50)
+2017-10-03 14:04:47.658862-0700 RestaurantApp[13750:5498982] HTTP load failed (error code: -1009 [1:50]) for Task <111D2389-D0AF-49C0-8E82-B95CDE34C43D>.<1>
+2017-10-03 14:04:47.659820-0700 RestaurantApp[13750:5508562] Task <111D2389-D0AF-49C0-8E82-B95CDE34C43D>.<1> finished with error - code: -1009
+2017-10-03 14:04:47.662637-0700 RestaurantApp[13750:5498988] [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x61800044c2a0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-03 14:04:47.664 RestaurantApp[13750] <Error> [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1009, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x61800044c2a0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-10-03 14:59:01.001389-0700 RestaurantApp[13750:5523636] HTTP load failed (error code: -999 [1:89]) for Task <BD17458F-88FB-4BD2-81C9-5CAB9052A7E4>.<1>
+2017-10-03 14:59:01.001479-0700 RestaurantApp[13750:5529092] Task <BD17458F-88FB-4BD2-81C9-5CAB9052A7E4>.<1> finished with error - code: -999
+2017-10-03 14:59:01.061036-0700 RestaurantApp[13750:5523705] [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1001, Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2103, NSLocalizedDescription=The request timed out.}
+2017-10-03 14:59:01.062 RestaurantApp[13750] <Error> [Firebase/Analytics][I-ACS901017] Encounter network error. Code, error: -1001, Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, NSErrorFailingURLKey=https://app-measurement.com/config/app/1:559634558635:ios:ef48ac2901479983?platform=ios&app_instance_id=6051022670904CE9876A95C499FFC630&gmp_version=4000, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2103, NSLocalizedDescription=The request timed out.}
+2017-10-03 15:06:20.298179-0700 RestaurantApp[13750:5536899] TIC Read Status [33:0x0]: 1:57
+2017-10-03 15:06:20.298599-0700 RestaurantApp[13750:5536899] TIC Read Status [33:0x0]: 1:57
+2017-10-03 15:06:20.961769-0700 RestaurantApp[13750:5529092] TIC Read Status [34:0x0]: 1:57
+2017-10-03 15:06:20.962967-0700 RestaurantApp[13750:5529092] TIC Read Status [34:0x0]: 1:57
+2017-10-03 16:06:21.155317-0700 RestaurantApp[13750:5756222] TIC Read Status [35:0x0]: 1:57
+2017-10-03 16:06:21.155507-0700 RestaurantApp[13750:5756222] TIC Read Status [35:0x0]: 1:57
+2017-10-03 16:06:21.296603-0700 RestaurantApp[13750:5553482] TIC Read Status [36:0x0]: 1:57
+2017-10-03 16:06:21.297125-0700 RestaurantApp[13750:5553482] TIC Read Status [36:0x0]: 1:57
+2017-10-03 17:16:02.590360-0700 RestaurantApp[13750:5988042] TIC Read Status [37:0x0]: 1:57
+2017-10-03 17:16:02.591314-0700 RestaurantApp[13750:5988042] TIC Read Status [37:0x0]: 1:57
+2017-10-03 17:16:02.987975-0700 RestaurantApp[13750:6103648] TIC Read Status [38:0x0]: 1:57
+2017-10-03 17:16:02.988295-0700 RestaurantApp[13750:6103648] TIC Read Status [38:0x0]: 1:57
+2017-10-03 18:52:06.667268-0700 RestaurantApp[13750:6103645] TIC Read Status [39:0x0]: 1:57
+2017-10-03 18:52:06.667529-0700 RestaurantApp[13750:6103645] TIC Read Status [39:0x0]: 1:57
+2017-10-03 18:52:06.989024-0700 RestaurantApp[13750:6108357] TIC Read Status [40:0x0]: 1:57
+2017-10-03 18:52:06.989400-0700 RestaurantApp[13750:6108357] TIC Read Status [40:0x0]: 1:57
+2017-10-03 20:04:32.350900-0700 RestaurantApp[13750:6119090] TIC Read Status [41:0x0]: 1:57
+2017-10-03 20:04:32.351030-0700 RestaurantApp[13750:6119090] TIC Read Status [41:0x0]: 1:57
+2017-10-03 20:04:32.667240-0700 RestaurantApp[13750:6123268] TIC Read Status [42:0x0]: 1:57
+2017-10-03 20:04:32.667418-0700 RestaurantApp[13750:6123268] TIC Read Status [42:0x0]: 1:57
+2017-10-03 21:04:33.075020-0700 RestaurantApp[13750:6122104] TIC Read Status [43:0x0]: 1:57
+2017-10-03 21:04:33.075194-0700 RestaurantApp[13750:6122104] TIC Read Status [43:0x0]: 1:57
+2017-10-03 21:04:33.494828-0700 RestaurantApp[13750:6254899] TIC Read Status [44:0x0]: 1:57
+2017-10-03 21:04:33.495193-0700 RestaurantApp[13750:6254899] TIC Read Status [44:0x0]: 1:57
+2017-10-03 22:04:33.917991-0700 RestaurantApp[13750:6446093] TIC Read Status [45:0x0]: 1:57
+2017-10-03 22:04:33.918121-0700 RestaurantApp[13750:6446093] TIC Read Status [45:0x0]: 1:57
+2017-10-03 22:04:34.072406-0700 RestaurantApp[13750:6607891] TIC Read Status [46:0x0]: 1:57
+2017-10-03 22:04:34.072792-0700 RestaurantApp[13750:6607891] TIC Read Status [46:0x0]: 1:57
+2017-10-03 23:04:34.269403-0700 RestaurantApp[13750:6888014] TIC Read Status [47:0x0]: 1:57
+2017-10-03 23:04:34.269577-0700 RestaurantApp[13750:6888014] TIC Read Status [47:0x0]: 1:57
+2017-10-03 23:04:34.412030-0700 RestaurantApp[13750:6888014] TIC Read Status [48:0x0]: 1:57
+2017-10-03 23:04:34.412289-0700 RestaurantApp[13750:6888014] TIC Read Status [48:0x0]: 1:57
+2017-10-03 23:12:54.657679-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:12:54.657863-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:12:56.356472-0700 RestaurantApp[13750:7015840] TIC Read Status [49:0x0]: 1:57
+2017-10-03 23:12:56.356740-0700 RestaurantApp[13750:7015840] TIC Read Status [49:0x0]: 1:57
+2017-10-03 23:12:56.742809-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:12:56.742925-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:13:56.320055-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:13:56.320278-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:14:13.630449-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+2017-10-03 23:14:13.630584-0700 RestaurantApp[13750:1153087] API error: (null) returned 0 width, assuming UIViewNoIntrinsicMetric
+(lldb) 

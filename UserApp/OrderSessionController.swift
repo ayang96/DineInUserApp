@@ -8,9 +8,7 @@
 //This class controls the ordering and group adding...the group view controller has a segue to go here
 import UIKit
 import Firebase
-class SelectedGroupController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
-    
-    var restaurantObj: Restaurant?
+class OrderSessionController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     var groupObj: Group?
     var handle: UInt?
     @IBOutlet weak var PopupView: UIView!
@@ -64,7 +62,7 @@ class SelectedGroupController: UIViewController, UICollectionViewDelegate, UICol
     override func viewWillAppear(_ animated: Bool) {
         PopupView.layer.cornerRadius = 10
         PopupView.layer.masksToBounds = true
-        RestaurantLabel.text = restaurantObj?.name
+        RestaurantLabel.text = groupObj?.restname
         NameOfGroup.text = groupObj?.groupName
         InviteCode.text = groupObj?.link
         InviteCode.isUserInteractionEnabled = true
@@ -134,7 +132,6 @@ class SelectedGroupController: UIViewController, UICollectionViewDelegate, UICol
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PopoverToSelect" {
             if let destinationVC = segue.destination as? SelectFoodPopoverController {
-                destinationVC.restaurantObj = restaurantObj
                 destinationVC.groupObj = groupObj
             }
         }

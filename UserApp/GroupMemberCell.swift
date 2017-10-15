@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class MenuPopoverCell: UICollectionViewCell {
+class GroupMemberCell: UICollectionViewCell {
     
     @IBOutlet weak var groupMemberName: UILabel!
     @IBOutlet weak var orderStatus: UILabel!

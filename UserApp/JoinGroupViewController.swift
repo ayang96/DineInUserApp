@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-class PopoverViewController: UIViewController{
+class JoinGroupViewController: UIViewController{
     
     @IBOutlet weak var PopupView: UIView!
     
