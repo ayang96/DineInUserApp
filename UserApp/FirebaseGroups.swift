@@ -101,6 +101,10 @@ func getGroups(completion: @escaping (Bool) -> Void) {
     }
 }
 
+//
+func readyCheck(check: Bool){
+    
+}
 
 //performance upgrade needed: index by links
 func joinGroup(link: String, completion: @escaping (Bool?) -> Void) {
@@ -149,6 +153,56 @@ func joinGroup(link: String, completion: @escaping (Bool?) -> Void) {
     
 }
 
+//this function only allows you to be groupleader of one thing
+func checkIfCreatedGroup(completion: @escaping (Bool) -> Void) {
+    let dbRef = Database.database().reference()
+    let currentuser = Auth.auth().currentUser
+    dbRef.child("users").child((currentuser?.uid)!).child("Groups").observeSingleEvent(of: .value, with: { (snapshot) in
+        let groupsToCheck = snapshot.value as? [String:Any]
+        if(groupsToCheck == nil){
+            completion(false)
+        } else {
+            for(_,groupname) in groupsToCheck!{
+                if(groupname as! String == (currentuser?.displayName)! + "'s Group"){
+                    completion(true)
+                }
+            }
+        }
+    })
+}
+
+func getOneGroup(gid:String, completion: @escaping (Group) -> Void){
+    let dbRef = Database.database().reference()
+    let currentuser = Auth.auth().currentUser
+    dbRef.child("Groups").child(gid).observeSingleEvent(of: .value, with: { (snapshot) in
+        if(snapshot.value is NSNull || snapshot.value == nil || snapshot.exists() == false){  //if this group doesn't exist
+           //just remove the group from the local list(ie nothing to worry about)
+        } else {
+            let groupToReturn = snapshot.value as! [String:Any]
+            let groupObjToReturn = Group.dictionaryToGroup(dictionary: groupToReturn, key: gid)
+            completion(groupObjToReturn!)
+        }
+    })
+}
+func getMyGroup(completion: @escaping (Group) -> Void) {
+    let dbRef = Database.database().reference()
+    let currentuser = Auth.auth().currentUser
+    dbRef.child("users").child((currentuser?.uid)!).child("Groups").observeSingleEvent(of: .value, with: { (snapshot) in
+        let groupsToCheck = snapshot.value as? [String:Any]
+        if(groupsToCheck == nil){
+            
+        } else {
+            for(gid,groupname) in groupsToCheck!{
+                if(groupname as! String == (currentuser?.displayName)! + "'s Group"){
+                    getOneGroup(gid:gid) {
+                        (group) in
+                        completion(group)
+                    }
+                }
+            }
+        }
+    })
+}
 func deleteGroup(gid: String, completion: @escaping (Bool) -> Void) {
     let dbRef = Database.database().reference()
     let currentuser = Auth.auth().currentUser

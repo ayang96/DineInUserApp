@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/AppDelegate.swift"
-            timestampString = "529725304.975353"
+            timestampString = "529817160.105411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "140"
@@ -114,11 +114,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.853835"
+            timestampString = "529817210.621876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -160,11 +160,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.853925"
+            timestampString = "529817210.621959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -174,11 +174,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.85398"
+            timestampString = "529817210.622014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -188,11 +188,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854026"
+            timestampString = "529817210.622063"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854071"
+            timestampString = "529817210.622114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -248,11 +248,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854117"
+            timestampString = "529817210.622165"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -262,11 +262,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854162"
+            timestampString = "529817210.622212"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -276,11 +276,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854206"
+            timestampString = "529817210.622272"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -290,11 +290,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442279"
+            timestampString = "529817210.62232"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96">
+            startingLineNumber = "128"
+            endingLineNumber = "128">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -304,11 +304,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854306"
+            timestampString = "529817210.622955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -350,11 +350,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442385"
+            timestampString = "529817210.623011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96">
+            startingLineNumber = "128"
+            endingLineNumber = "128">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -364,11 +364,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442448"
+            timestampString = "529817210.62345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96">
+            startingLineNumber = "128"
+            endingLineNumber = "128">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,21 +378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442502"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854472"
+            timestampString = "529817210.623878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "128"
@@ -406,11 +392,25 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854514"
+            timestampString = "529817210.624307"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/FirebaseManager.swift"
+            timestampString = "529817210.624365"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -468,11 +468,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/FirebaseManager.swift"
-            timestampString = "529723077.854603"
+            timestampString = "529817210.624438"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128">
+            startingLineNumber = "127"
+            endingLineNumber = "127">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -528,11 +528,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442619"
+            timestampString = "529817210.624521"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96">
+            startingLineNumber = "128"
+            endingLineNumber = "128">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -947,11 +947,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserApp/MenuViewController.swift"
-            timestampString = "529727042.442842"
+            timestampString = "529817210.625555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -962,46 +962,46 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UserApp/DishInfoViewController.swift"
-            timestampString = "529727042.442901"
+            filePath = "UserApp/MenuViewController.swift"
+            timestampString = "529817210.626185"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "dishSelected(_:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "MenuViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/MenuViewController.swift"
+            timestampString = "529817210.626721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "updateData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "UserApp.DishInfoViewController.dishSelected(Any) -&gt; ()"
-                  moduleName = "UserApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexyang/My%20Documents/UCBAlex/UserApp/UserApp/DishInfoViewController.swift"
-                  timestampString = "529726941.036017"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "21">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "UserApp.DishInfoViewController.dishSelected(Any) -&gt; ()"
-                  moduleName = "UserApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexyang/My%20Documents/UCBAlex/UserApp/UserApp/DishInfoViewController.swift"
-                  timestampString = "529726941.039325"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "1642">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/MenuViewController.swift"
+            timestampString = "529817210.627161"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

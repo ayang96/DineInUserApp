@@ -12,20 +12,21 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     @objc var indicator: UIActivityIndicatorView?
     var restaurantObj: Restaurant?
     var groupObj: Group?
-
+    var orderCreated = false
     @IBOutlet weak var menuTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateData()
+        updateMenu()
         menuTableView.delegate = self
         menuTableView.dataSource = self
         self.title = "Menu"
         navigationController?.navigationBar.isHidden = false
         
     }
-    
-    @objc func updateData() {
-        // YOUR CODE HERE
+    override func viewWillAppear(_ animated: Bool) {
+        updateData()
+    }
+    @objc func updateMenu() {
         getMenu(mid: (restaurantObj?.mid)!) { (disharray) in
             if(disharray != nil){
                 dishes = disharray!
@@ -33,6 +34,25 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
             
         }
+    }
+    
+    
+    @objc func updateData() {
+        // YOUR CODE HERE
+        checkIfCreatedGroup(completion: { (answer) in
+            print(answer)
+            if(answer){
+                self.viewOrEatHere.title = "View Order"
+                getMyGroup(){ (returnedgroup) in
+                    self.groupObj = returnedgroup
+                    self.orderCreated = true
+                }
+            } else {
+                 self.viewOrEatHere.title = "Eat Here"
+                self.orderCreated = false
+                
+            }
+        })
     }
     
     override func didReceiveMemoryWarning() {
@@ -55,9 +75,11 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     //Row should not be selectable
     var selectedDish:Dish?
+    var selectedIndex:Int?
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if(Auth.auth().currentUser != nil) {
             selectedDish = dishes[indexPath.item]
+            selectedIndex = indexPath.item
             performSegue(withIdentifier: "MenuToDishInfo", sender: self)
         }
         //addOrder(dishname: dishes[indexPath.item].dishName!, oid: "o1")
@@ -65,17 +87,25 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
+    @IBOutlet weak var viewOrEatHere: UIBarButtonItem!
+    //really view order button
     @IBAction func EatHereButtonPressed(_ sender: Any) {
-        if(Auth.auth().currentUser != nil) {
-            let titlestring = (Auth.auth().currentUser?.displayName)! + "'s Group"
-            createGroup(groupName: titlestring, restObj: restaurantObj!) {
-                (group) in
-                self.groupObj = group
-                
+        
+        if(viewOrEatHere.title == "Eat Here") {
+            if(Auth.auth().currentUser != nil) {
+                let titlestring = (Auth.auth().currentUser?.displayName)! + "'s Group"
+                createGroup(groupName: titlestring, restObj: restaurantObj!) {
+                    (group) in
+                    self.groupObj = group
+                    
+                }
             }
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue:"update"), object: nil)
-            performSegue(withIdentifier: "MenuToPopover", sender: self)
+        } else {
+            
         }
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue:"update"), object: nil)
+        performSegue(withIdentifier: "MenuToPopover", sender: self)
+            
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MenuToPopover" {
@@ -88,6 +118,8 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             if let destinationVC = segue.destination as? DishInfoViewController {
                 destinationVC.dishObj = selectedDish
                 destinationVC.restaurantObj = restaurantObj
+                destinationVC.orderCreated = orderCreated
+                destinationVC.selectedIndex = selectedIndex
             }
         }
     }

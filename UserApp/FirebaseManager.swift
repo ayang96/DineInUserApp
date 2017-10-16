@@ -53,7 +53,6 @@ func passwordMaker() -> String {
 
 func submitOrder(gp: Group, completion: @escaping (Bool) -> Void) {
     let dbRef = Database.database().reference()
-    
     dbRef.child("orders").child(gp.rid).childByAutoId().setValue(["rid": gp.rid, "uidlist":gp.uidlist, "gid":gp.gid] as? Any)
     completion(true)
 }

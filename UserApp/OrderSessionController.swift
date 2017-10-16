@@ -55,14 +55,28 @@ class OrderSessionController: UIViewController, UICollectionViewDelegate, UIColl
         }
         
     }
-
+    
+    @IBOutlet weak var readyButton: UIButton!
+    @IBAction func readyPressed(_ sender: Any) {
+        if(readyButton.titleLabel?.text == "Ready"){
+            readyCheck(check:true)
+            readyButton.titleLabel?.text = "Not Ready"
+        } else {
+            readyCheck(check:false)
+            readyButton.titleLabel?.text = "Ready"
+            
+        }
+        
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         
     }
     override func viewWillAppear(_ animated: Bool) {
         PopupView.layer.cornerRadius = 10
         PopupView.layer.masksToBounds = true
-        RestaurantLabel.text = groupObj?.restname
+        //print(groupObj?.restname)
+        //RestaurantLabel.text = groupObj?.restname
         NameOfGroup.text = groupObj?.groupName
         InviteCode.text = groupObj?.link
         InviteCode.isUserInteractionEnabled = true
@@ -92,13 +106,13 @@ class OrderSessionController: UIViewController, UICollectionViewDelegate, UIColl
         
         //On reload checks if user has selected a dish
         if let chosenfood = (groupObj!.uidlist[uid]?["order"]) {
-            cell.orderStatus.text = "OK"
+            cell.orderStatus.text = "Ready"
             if(uid == Auth.auth().currentUser?.uid){
                 ChosenFood.text = chosenfood
             }
         } else {
             allOrdersReady = false
-            cell.orderStatus.text = "nil"
+            cell.orderStatus.text = "Not Ready"
             print("set text to nil")
         }
         
